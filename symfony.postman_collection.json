@@ -1,0 +1,115 @@
+{
+	"info": {
+		"_postman_id": "2177c498-1616-4948-b91e-df42bd970359",
+		"name": "symfony",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "filterbyCategory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/products?page=1&category=boots",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "category",
+							"value": "boots"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterbyPriceLessThan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/products?page=1&PriceLessThan=79000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "PriceLessThan",
+							"value": "79000"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "filterbyMix",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v1/products?page=1&category=boots&PriceLessThan=79000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"products"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "category",
+							"value": "boots"
+						},
+						{
+							"key": "PriceLessThan",
+							"value": "79000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
