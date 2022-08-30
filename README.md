@@ -11,7 +11,7 @@ How to use
 ------------
 
 - Run __composer install__
-- Run __symfony server:start
+- Run __symfony server:start__
 
 API to use
 ------------
