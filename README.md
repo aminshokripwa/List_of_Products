@@ -27,7 +27,7 @@ Example - GET resource: GET /api/products?page=1&category=boots
     "page": "1",
     "allPage": 1,
     "products": [
-        ...
+      
     ]
 }
 
@@ -39,7 +39,7 @@ Example - GET resource: GET /api/products?page=1&PriceLessThan=79000
     "page": "1",
     "allPage": 1,
     "products": [
-        ...
+    
     ]
 }
 
@@ -51,6 +51,6 @@ Example - GET resource: GET /api/products?page=1&category=boots&PriceLessThan=79
     "page": "1",
     "allPage": 1,
     "products": [
-        ...
+     
     ]
 }
