@@ -13,8 +13,6 @@ How to use
 - Clone the repository with __git clone__
 - Run __composer install__
 - Run __symfony server:start
-OR
-- Run __php bin/console server:run
 
 API to use
 ------------
