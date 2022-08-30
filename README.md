@@ -10,7 +10,6 @@ Requirements
 How to use
 ------------
 
-- Clone the repository with __git clone__
 - Run __composer install__
 - Run __symfony server:start
 
