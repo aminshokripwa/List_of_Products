@@ -16,7 +16,7 @@ How to use
 API to use
 ------------
 
-Example - GET resource: GET /api/products?page=1&category=boots
+Example - GET resource: GET /api/v1/products?page=1&category=boots
 ```json
 {
     "status": "success",
@@ -29,7 +29,7 @@ Example - GET resource: GET /api/products?page=1&category=boots
 }
 ``` 
 
-Example - GET resource: GET /api/products?page=1&PriceLessThan=79000
+Example - GET resource: GET /api/v1/products?page=1&PriceLessThan=79000
 ```json
 {
     "status": "success",
@@ -42,7 +42,7 @@ Example - GET resource: GET /api/products?page=1&PriceLessThan=79000
 }
 ``` 
 
-Example - GET resource: GET /api/products?page=1&category=boots&PriceLessThan=79000
+Example - GET resource: GET /api/v1/products?page=1&category=boots&PriceLessThan=79000
 ```json
 {
     "status": "success",
