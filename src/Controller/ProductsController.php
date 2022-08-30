@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ProductsController extends AbstractController
 {
-    #[Route('/api/products', name: 'products')]
+    #[Route('/api/v1/products', name: 'products')]
     public function index(Request $request): JsonResponse
     {
         // Read Products list from json file
