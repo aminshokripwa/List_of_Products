@@ -15,6 +15,7 @@ How to use
 
 API to use
 ------------
+#symfony.postman_collection.json
 
 Example - GET resource: GET /api/v1/products?page=1&category=boots
 ```json
