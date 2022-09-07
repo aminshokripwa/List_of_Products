@@ -1,4 +1,4 @@
-# List of Products By symfony
+# List of Products By Symfony
 
 Show products details
 
