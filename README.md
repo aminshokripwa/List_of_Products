@@ -6,7 +6,11 @@ Requirements
 ------------
 
   * PHP 8.0.2 or higher;
-  
+
+Ensure you create directory in your directory.
+
+`git clone https://github.com/aminshokripwa/List_of_Products.git`
+
 How to use
 ------------
 
