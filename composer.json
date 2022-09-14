@@ -1,6 +1,7 @@
 {
     "name": "list/prodcuts",
     "type": "project",
+    "description": "list of products",
     "license": "proprietary",
     "minimum-stability": "stable",
     "prefer-stable": true,
